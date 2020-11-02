@@ -43,8 +43,9 @@ table {
 	border-spacing: 0;
 }
 .nav-bar{
-  width: 100vh;
-  display: inline-flex;
+  width: 100%;
+	display: inline-flex;
+	align-self: center;
   justify-content: space-around;
 
 }

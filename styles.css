@@ -49,9 +49,11 @@ table {
   justify-content: space-around;
 
 }
-/* ul{
-  display: flex;
+.header-img{
+	width: 100%;
+	height: fit-content;
 }
-.nav-contents{
-  align-content: space-around;
-} */
+.header-text{
+	position: absolute;
+	color: white;
+}

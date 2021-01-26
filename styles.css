@@ -43,17 +43,33 @@ table {
 	border-spacing: 0;
 }
 .nav-bar{
-  width: 100%;
+	width: 100%;
+	padding-top: 20px;
 	display: inline-flex;
 	align-self: center;
   justify-content: space-around;
-
+	color: #090C02;
 }
 .header-img{
 	width: 100%;
-	height: fit-content;
 }
 .header-text{
-	position: absolute;
-	color: white;
+	border-bottom: 3px solid  #3423A6 ;
+	padding-top: 20px;
+	text-align: center;
+	color: #090C02;
+	font-size: 50px
+	
 }
+.linkedIn{
+	height:30px;
+}
+.nav-contents:hover{
+	border-bottom: 3px solid  #3423A6 ;
+}/* color scheme 
+#C7EBF0 light blue
+#3423A6 dark blue
+#090C02 black
+#7A89C2 darker light blue
+#2E1760 purple blue
+*/

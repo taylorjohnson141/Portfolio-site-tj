@@ -42,6 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+	text-decoration: none;
+}
 .nav-bar{
 	width: 100%;
 	padding-top: 20px;
@@ -63,10 +66,22 @@ table {
 }
 .linkedIn{
 	height:30px;
+	border-bottom: none;
+}
+.nav-bar{
+	font-size: 30px;
+}
+.hidden{
+	display: none;
 }
 .nav-contents:hover{
+	cursor: pointer;
 	border-bottom: 3px solid  #3423A6 ;
-}/* color scheme 
+}
+.gitlogo{
+	border-bottom: none;
+}
+/* color scheme 
 #C7EBF0 light blue
 #3423A6 dark blue
 #090C02 black
